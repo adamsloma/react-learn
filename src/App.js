@@ -14,6 +14,9 @@ import { BoilingCalculator } from './BoilingCalculator.js';
 import { FancyBorder } from './FancyBorder.js';
 import { SplitPane } from './SplitPane.js';
 import { Dialog, WelcomeDialog, SignUpDialog } from './Dialog.js';
+import { FunctionCounter } from './FunctionCounter.js';
+import { ClassCounter } from './ClassCounter.js';
+import { FruitPicker } from './FruitPicker.js';
 
 import './style.css';
 
@@ -44,6 +47,9 @@ export default function App() {
       {/* <Dialog title="skr skr" message="skrskrskrrrrrrrrrrrrrrrrrrrrrrrrrrrrr" /> */}
       {/* <WelcomeDialog /> */}
       {/* <SignUpDialog /> */}
+      {/* <FunctionCounter /> */}
+      {/* <ClassCounter /> */}
+      <FruitPicker />
     </>
   );
 }
